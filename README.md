@@ -16,11 +16,15 @@
 
 ### 如何安装
 
-`plugman install --platform <ios|amazon-fireos|android|blackberry10|wp8> --project <directory> --plugin <name|url|path> [--plugins_dir <directory>] [--www <directory>] [--variable <name>=<value> [--variable <name>=<value> ...]]`
+```
+plugman install --platform ios --project . --plugin cordova-plugin-battery-status
+```
 
 ### 如何删卸
 
-`plugman uninstall --platform <ios|amazon-fireos|android|blackberry10|wp8> --project <directory> --plugin <id> [--www <directory>] [--plugins_dir <directory>]`
+```
+plugman uninstall --platform ios --project . --plugin cordova-plugin-battery-status
+```
 
 ## Contact
 **Email:** andy_ios@163.com
